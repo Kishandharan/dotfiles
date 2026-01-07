@@ -1,5 +1,14 @@
 pane_frames false
 default_layout "minimal"
+mouse_mode false
+ui {
+    pane_frames {
+        hide_session_name true
+    }
+}
+show_startup_tips false
+show_release_notes false
+simplified_ui true
 keybinds clear-defaults=true {
     locked {
         bind "Ctrl g" { SwitchToMode "normal"; }
