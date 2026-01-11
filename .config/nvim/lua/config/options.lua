@@ -1,4 +1,5 @@
 vim.opt.termguicolors = true
+vim.opt.relativenumber = false
 vim.g.nightflyWinSeparator = 3
 vim.g.nightflyItalics = false
 vim.g.nightflyNormalFloat = true
