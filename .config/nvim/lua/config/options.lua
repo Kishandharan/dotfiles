@@ -7,3 +7,4 @@ require("nightfly").custom_colors({ -- This block should be removed or commented
   bg = "#08091a",
 })
 require("oil").setup()
+vim.cmd("set wrap linebreak nolist")
