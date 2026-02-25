@@ -20,11 +20,12 @@ require("lazy").setup({
     { "stevearc/oil.nvim" },
     { "folke/which-key.nvim",       enabled = false },
     { "jiaoshijie/undotree" },
+    { "olimorris/onedarkpro.nvim" },
     {
       "LazyVim/LazyVim",
       import = "lazyvim.plugins",
       opts = {
-        colorscheme = "nightfly",
+        colorscheme = "onedark_dark",
       },
     },
   },
