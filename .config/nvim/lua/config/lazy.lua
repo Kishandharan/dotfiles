@@ -16,16 +16,14 @@ vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup({
   spec = {
-    { "bluz71/vim-nightfly-colors", name = "nightfly", priority = 1000 },
     { "stevearc/oil.nvim" },
-    { "folke/which-key.nvim",       enabled = false },
+    { "folke/which-key.nvim", enabled = false },
     { "jiaoshijie/undotree" },
-    { "olimorris/onedarkpro.nvim" },
     {
       "LazyVim/LazyVim",
       import = "lazyvim.plugins",
       opts = {
-        colorscheme = "onedark_dark",
+        colorscheme = "catppuccin",
       },
     },
   },
