@@ -1,4 +1,5 @@
 vim.opt.termguicolors = true
 vim.opt.relativenumber = false
-require("oil").setup()
+vim.opt.jumpoptions = "stack"
 vim.cmd("set wrap linebreak nolist")
+require("oil").setup()
