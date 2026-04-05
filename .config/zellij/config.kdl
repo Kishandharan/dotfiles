@@ -10,6 +10,8 @@ show_startup_tips false
 show_release_notes false
 simplified_ui true
 keybinds clear-defaults=true {
+    unbind "Ctrl o"
+    unbind "Ctrl i"
     locked {
         bind "Ctrl g" { SwitchToMode "normal"; }
     }
