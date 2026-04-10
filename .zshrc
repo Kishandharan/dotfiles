@@ -8,7 +8,6 @@ alias cd="z"
 alias ls="eza --color=always --long --git --no-filesize --icons=always --no-time --no-user --no-permissions"
 bindkey -v
 bindkey -M viins 'kj' vi-cmd-mode
-alias serverconnect="ssh root@172.105.63.40"
 HISTFILE=~/.zsh_history
 HISTSIZE=100000
 SAVEHIST=100000
