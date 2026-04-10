@@ -16,7 +16,6 @@ vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup({
   spec = {
-    { "stevearc/oil.nvim" },
     { "folke/which-key.nvim", enabled = false },
     { "jiaoshijie/undotree" },
     { "nvim-mini/mini.files" },
