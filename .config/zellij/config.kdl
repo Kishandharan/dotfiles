@@ -9,6 +9,7 @@ ui {
 show_startup_tips false
 show_release_notes false
 simplified_ui true
+theme "catppuccin-mocha"
 keybinds clear-defaults=true {
     unbind "Ctrl i"
     locked {
