@@ -10,7 +10,6 @@ show_startup_tips false
 show_release_notes false
 simplified_ui true
 keybinds clear-defaults=true {
-    unbind "Ctrl o"
     unbind "Ctrl i"
     locked {
         bind "Ctrl g" { SwitchToMode "normal"; }
@@ -123,7 +122,7 @@ keybinds clear-defaults=true {
             }
             SwitchToMode "normal"
         }
-        bind "Ctrl o" { SwitchToMode "normal"; }
+        bind "Ctrl x" { SwitchToMode "normal"; }
         bind "p" {
             LaunchOrFocusPlugin "plugin-manager" {
                 floating true
@@ -182,7 +181,7 @@ keybinds clear-defaults=true {
         bind "Ctrl h" { SwitchToMode "move"; }
     }
     shared_except "locked" "session" {
-        bind "Ctrl o" { SwitchToMode "session"; }
+        bind "Ctrl x" { SwitchToMode "session"; }
     }
     shared_except "locked" "scroll" "search" "tmux" {
         bind "Ctrl b" { SwitchToMode "tmux"; }
