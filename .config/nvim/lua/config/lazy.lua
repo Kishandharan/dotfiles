@@ -17,6 +17,7 @@ vim.opt.rtp:prepend(lazypath)
 require("lazy").setup({
   spec = {
     { "folke/which-key.nvim", enabled = false },
+    { "stevearc/oil.nvim" },
     {
       "LazyVim/LazyVim",
       import = "lazyvim.plugins",
