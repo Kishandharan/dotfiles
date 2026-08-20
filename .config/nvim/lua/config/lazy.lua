@@ -19,6 +19,16 @@ require("lazy").setup({
     { "folke/which-key.nvim", enabled = false },
     { "stevearc/oil.nvim" },
     {
+      "folke/flash.nvim",
+      opts = {
+        modes = {
+          char = {
+            enabled = false,
+          },
+        },
+      },
+    },
+    {
       "LazyVim/LazyVim",
       import = "lazyvim.plugins",
       opts = {
