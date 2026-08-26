@@ -17,7 +17,7 @@ vim.opt.rtp:prepend(lazypath)
 require("lazy").setup({
   spec = {
     { "folke/which-key.nvim", enabled = false },
-    { "leath-dub/snipe.nvim" },
+    { "leath-dub/snipe.nvim", lazy = false },
     {
       "folke/flash.nvim",
       opts = {
