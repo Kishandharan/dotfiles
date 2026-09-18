@@ -16,8 +16,9 @@ vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup({
   spec = {
-    { "folke/which-key.nvim", enabled = false },
-    { "leath-dub/snipe.nvim", lazy = false },
+    { "folke/which-key.nvim",      enabled = false },
+    { "leath-dub/snipe.nvim",      lazy = false },
+    { "bluz71/vim-nightfly-colors" },
     {
       "folke/flash.nvim",
       opts = {
@@ -32,7 +33,7 @@ require("lazy").setup({
       "LazyVim/LazyVim",
       import = "lazyvim.plugins",
       opts = {
-        colorscheme = "catppuccin-mocha",
+        colorscheme = "nightfly",
       },
     },
   },
