@@ -8,6 +8,7 @@ ui {
 }
 show_startup_tips false
 show_release_notes false
+theme "catppuccin-mocha"
 simplified_ui true
 keybinds clear-defaults=true {
     unbind "Ctrl i"
