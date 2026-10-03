@@ -31,4 +31,10 @@ sudo pacman -S fzf curl zsh ripgrep yazi neovim zellij stow git zoxide eza bat t
 ```
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 ```
+
 I also recommend using a Nerd Font for icons.
+To symlink to the home directory and start the config, run this command inside the cloned directory:
+```
+stow .
+```
+
