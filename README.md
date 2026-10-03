@@ -25,7 +25,7 @@ mkdir -p ~/.local/bin && curl -sS https://starship.rs/install.sh | sh -s -- -b ~
 ```
 
 ```
-sudo pacman -S fzf curl zsh ripgrep yazi neovim zellij stow git zoxide eza bat
+sudo pacman -S fzf curl zsh ripgrep yazi neovim zellij stow git zoxide eza bat tmux
 ```
 
 ```
