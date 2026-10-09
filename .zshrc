@@ -6,6 +6,7 @@ eval "$(starship init zsh)"
 eval "$(fzf --zsh)"
 alias cd="z"
 alias ls="eza --color=always --long --git --no-filesize --icons=always --no-time --no-user --no-permissions"
+alias odinrun="odin run -file"
 bindkey -v
 bindkey -M viins 'kj' vi-cmd-mode
 HISTFILE=~/.zsh_history
