@@ -19,6 +19,7 @@ require("lazy").setup({
     { "folke/which-key.nvim",      enabled = false },
     { "leath-dub/snipe.nvim",      lazy = false },
     { "bluz71/vim-nightfly-colors" },
+    { "nvim-mini/mini.files" },
     {
       "folke/flash.nvim",
       opts = {

@@ -17,3 +17,4 @@ vim.opt.termguicolors = true
 vim.g.nightflyWinSeparator = 3
 vim.g.nightflyItalics = false
 vim.g.nightflyNormalFloat = true
+require('mini.files').setup()
