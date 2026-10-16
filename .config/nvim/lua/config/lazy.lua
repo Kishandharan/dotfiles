@@ -5,7 +5,7 @@ if not (vim.uv or vim.loop).fs_stat(lazypath) then
   if vim.v.shell_error ~= 0 then
     vim.api.nvim_echo({
       { "Failed to clone lazy.nvim:\n", "ErrorMsg" },
-      { out,                            "WarningMsg" },
+      { out, "WarningMsg" },
       { "\nPress any key to exit..." },
     }, true, {})
     vim.fn.getchar()
@@ -18,9 +18,10 @@ require("lazy").setup({
   spec = {
     { "folke/which-key.nvim", enabled = false },
     { "leath-dub/snipe.nvim", lazy = false },
-    { "nvim-mini/mini.files" },
+    { "stevearc/oil.nvim", lazy = false },
     {
       "folke/flash.nvim",
+      lazy = false,
       opts = {
         modes = {
           char = {
